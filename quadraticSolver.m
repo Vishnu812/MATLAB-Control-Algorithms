@@ -1,6 +1,6 @@
 % quadraticSolver.m
 
-a = 1;
+a = 0;
 b = -5;
 c = 6;
 
