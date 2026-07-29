@@ -22,5 +22,5 @@ else
         fprintf('Root 2 = %.2f\n', x2);
     else
         disp('Complex roots')
-
+    end
 end
