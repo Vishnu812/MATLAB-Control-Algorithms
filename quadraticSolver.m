@@ -10,7 +10,7 @@ if a == 0
     else
         x = -c/b;
         fprintf('Linear root = %.2f\n', x);
-    end
+
 else
     D = b^2 - 4*a*c;
 
@@ -22,5 +22,5 @@ else
         fprintf('Root 2 = %.2f\n', x2);
     else
         disp('Complex roots')
-    end
+
 end
