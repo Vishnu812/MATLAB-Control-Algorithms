@@ -38,8 +38,8 @@ D = b^2 - 4*a*c;
 x1 = (-b + sqrt(D)) / (2*a);
 x2 = (-b - sqrt(D)) / (2*a);
 
-fprintf('Root 1 = %g\n', x1);
-fprintf('Root 2 = %g\n', x2);
+fprintf('Root 1 = %s\n', num2str(x1));
+fprintf('Root 2 = %s\n', num2str(x2));
 
 roots = [x1; x2];
 end

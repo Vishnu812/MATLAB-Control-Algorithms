@@ -7,7 +7,7 @@ if ~isempty(files)
 
     for i = 1:length(files)
         fprintf('%s\n', files(i).name);
-    
+    end
 else
     fprintf('No matching files found.\n');
 end
